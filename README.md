@@ -59,4 +59,4 @@
 - the Tesla login screen is presented the first time you use the application or when the Tesla rules decide it is required 
 - the app does NOT have access to your email/password data
 - once logged you can use the app without re-logging during several weeks (after which a new login will be requested by Tesla)
-- if you wish you can logout from your Tesla account (« Logout » button via the « ? » button). Once logged-out, archives will remain available
+
