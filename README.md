@@ -1,4 +1,4 @@
-### Detailed Instructions (v 0.2)
+### Detailed Instructions (v 1.1)
 
 ## Start a new trip
 
@@ -15,10 +15,10 @@
 
 - for each stop, the following data is automatically recorded: time, address (latitude and longitude are stored in the background), mileage, battery %, external temperature
 - please note this data collection may take 1-20 seconds 
-- in rare cases, the app cannot connect to the car; in such case, a screen will be displayed for manual data entry, pre-filled with the most probable values 
+- in rare cases, the app cannot connect to the car (no network zone, for instance); in such case, a screen will be displayed for manual data entry, pre-filled with the most probable values 
 
 - the latest recorded stop can be deleted (useful if you push the 🛬 or 🛫 button, by mistake)
-- each stop data can be edited manually (with the appropriate controls to retain data consistency)
+- each stop data can be edited manually (with the appropriate controls to retain data consistency); this gives you as well the option to record some notes related to this stop (if a note is present, the 📝 indicator is displayed besides the stop address)
 
 ## Archive the trip
 
@@ -38,10 +38,10 @@
 ## Trip map
 
 - the « map » 🗺 button brings up a display of the trip route on the map (simple or satellite view)
-- in order to build such a display, the gps position of your phone (in principle, same as the car…), is recorded every 30 meters while you drive (position recording is not active during a stop)
+- in order to build such a display, the gps position of your phone (in principle, same as the car…), is recorded every 50 meters while you drive (position recording is not active during a stop)
 - in order to enable this feature, you have to allow the application to collect your position (requested at your first use of the application and possible to activate later in the Settings / Privacy / Location services menu on your iPhone)
 
-##Units and display preferences
+## Units and display preferences
 
 - Distance unit, temperature unit and time display option (24-12) are as-defined in your Tesla
 
@@ -51,7 +51,7 @@
 - possibility to delete a trip which you do not need to keep in your archives; this is done via the Itinerary « Select » button in the « archives » context
 - support of multiple cars in your Tesla account: Car « Select » button in the «  new trip » context
 - for archives, support of cars no longer part of your Tesla account (but linked with archived trips)
-- the « ? » button (top right), gives access to: Detailed Instructions, Change Log, link to FAQ, email to the developper 
+- the « ? » button (top right), gives access to: Detailed Instructions, Change Log, link to FAQ, email to the developper, Tesla account logout
 
 
 ## Login to Tesla account
@@ -59,4 +59,5 @@
 - the Tesla login screen is presented the first time you use the application or when the Tesla rules decide it is required 
 - the app does NOT have access to your email/password data
 - once logged you can use the app without re-logging during several weeks (after which a new login will be requested by Tesla)
+- a « logout » button is available via « ? » / Assistance
 
