@@ -1,4 +1,4 @@
-##Detailed Instructions (v 2.4)
+## Detailed Instructions (v 2.4)
 
 You can find below detailed instructions for the following topics:
 (0) Free trial
